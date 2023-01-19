@@ -1,3 +1,20 @@
+.container{
+  position: relative;
+  text-align: left;
+  color: black;
+  background-image: url(images/lance-anderson-oq2WOgySksM-unsplash.jpg);
+  background-size: auto;
+  height: 200px;
+}
+/* added container but this should probably be changed - it might also be wise to put the image in the HTML rather than as a background img */
+
+.top-right{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+/* added in text class for on top of the image and aligned it left */
+
 /* The layout primitives for you to use */
 
 .center {
