@@ -6,12 +6,28 @@
     margin-right: auto;
   }
   
+  .width-xs {
+    max-width: 10rem;
+  }
+
   .width-sm {
     max-width: 20rem;
   }
   
   .width-lg {
     max-width: 60rem;
+  } 
+
+  .height-sm{
+    max-height: 20rem;
+  }
+
+  .height-md{
+    max-height: 40rem;
+  }
+
+  .height-lg{
+    max-height: 60rem;
   }
   
   .stack-sm > * + * {
@@ -47,6 +63,10 @@
   
   .justify-space-between {
     justify-content: space-between;
+  }
+
+  .justify-space-evenly {
+    justify-content: space-evenly;
   }
   
   .grid {
@@ -147,5 +167,80 @@
     flex-wrap: wrap;
     
   }
+
+  /* Custom Css */
+
+  nav{
+    min-width: 40%;
+    font-size: 1.1rem;
+  }
+
+  .backgroundColor{
+    background-color: grey;
+  }
+
+  .backgroundColor2{
+    background-color: white;
+  }
+
+  .nav-toggle {
+    display: none;
+}
+
+
+
   
   
+
+  @media only screen and (max-width: 600px){
+
+    /* css to hide the nav untill burger menu is pressed */
+    nav {
+        transform: scale(0, 1);
+        transform-origin: right;
+        transition: transform 400ms ease-in-out;
+        z-index: 10000000;
+        color: whitesmoke; 
+    }
+    nav a {
+        opacity: 0;
+        transition: opacity 250ms ease-in-out 2500ms;
+    }
+    /* end */
+
+      /* burger menu css */
+
+      .nav-toggle-label span,
+        .nav-toggle-label span::before,
+        .nav-toggle-label span::after {
+            display: block;
+            background-color: black;
+            height: 2px;
+            width: 2em;
+            border-radius: 2px;
+            position: relative;
+        }
+    
+        .nav-toggle-label span::before,
+        .nav-toggle-label span::after {
+            content: "";
+            position: absolute;
+        }
+    
+        .nav-toggle-label span::before {
+            bottom: 8px;
+        }
+    
+        .nav-toggle-label span::after {
+            top: 7px;
+        }
+    
+        .nav-toggle:checked~nav {
+            transform: scale(1, 1);
+        }
+    
+        .nav-toggle:checked~nav a {
+            opacity: 1;
+        }
+      /* end */
+  }
