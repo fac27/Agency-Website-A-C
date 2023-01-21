@@ -2,7 +2,6 @@
   position: relative;
   text-align: left;
   color: black;
-  background-image: url(images/lance-anderson-oq2WOgySksM-unsplash.jpg);
   background-size: auto;
   height: 200px;
 }
@@ -14,5 +13,3 @@
   left: 16px;
 }
 /* added in text class for on top of the image and aligned it left */
-
-  
