@@ -360,93 +360,9 @@ main{
     font-size: 32px;
 }
 
-
-
-/* end of service section css */
-
-
-/* Media Query */
-
-@media only screen and (max-width: 1000px) {
-/* Css for the Header/Nav */
-nav{
-    width: 60%;
-}
-/* End of header Css */
-
-}
-
-
-@media only screen and (max-width: 800px) {
-/* Css for the Header/Nav */
-header{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-
-nav{
-    width: 60%;
-    margin: 20px auto;
-}
-
-.Logo{
-    width: 50%;
-    height: 100%;
-    object-fit: contain;
-}
-/* End of header Css */
-
-}
-
-@media only screen and (max-width: 650px) {
-/* Css for the Header/Nav */
-
-header{
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 20px;
-    height: 15vh;
-}
-
-.Logo{
-    width: 50%;
-    height: 100%;
-    object-fit: contain;
-}
-
-nav{
-    width: 100%;
-    height: 100vh;
-    text-align: left;
-    position: absolute;
-    top: 100%;
-    left: 0%;
-    background-color: #191A1C;
-    opacity: 1;
-    padding: 0px 0%;
-    margin: 0 auto;
-    transform: scale(0, 1);
-    transform-origin: left;
-    transition: transform 400ms ease-in-out;
-    z-index: 10000000;
-}
-
-.navigation{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-}
-
-.navAnchor{
-    color: #0FC0C0;
+    .nav-toggle:checked~nav a {
+        opacity: 1;
+    }
 }
 
 
