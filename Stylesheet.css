@@ -291,13 +291,12 @@ main{
 }
 
 .face2{
-    background-color: #c1e8e8;
+    background-color: #191A1C;
     transition: 0.5s;
-    border: solid #191A1C 1px;
 }
 
-.face2 .serviceImg{
-   width: 65%;
+.face2 ion-icon{
+    font-size: 120px;
     color: white;
     transition: 0.5s;
 }
@@ -309,26 +308,22 @@ main{
     top:2.5rem;
     left:50%;
     transform: translateX(-50%);
-    background-color: #c1e8e8;
+    background-color: #e91e63;
     border: 2px solid #191A1C;
 }
 
-.card:hover .face2 .serviceImg{
+.card:hover .face2 ion-icon{
     color: white;
     font-size: 32px;
 }
 
-ion-icon{
-    color: white;
-    font-size: 32px;
-}
+    .nav-toggle:checked~nav a {
+        opacity: 1;
+    }
 
 
-
-
-
-/* end of service section css */
-
+/* End of header Css */
+=======
 
 /* Media Query */
 
