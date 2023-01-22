@@ -252,6 +252,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    background-color: rgb(15, 192, 192);
     flex-wrap: wrap;
 }
 
@@ -357,8 +358,6 @@ nav{
     .nav-toggle:checked~nav a {
         opacity: 1;
     }
-
-/* End of header Css */
-
 }
+
 
