@@ -140,7 +140,7 @@ transition: all 0.3s;
   overflow: hidden;
 }
 #hero{
-  position: absolute;
+  position: relative;
   background-image: url(images/lance-anderson-oq2WOgySksM-unsplash.jpg);
   padding-top: 5px;
   padding-left: 5px;
@@ -287,139 +287,6 @@ nav{
     .nav-toggle:checked~nav a {
         opacity: 1;
     }
-
-
-/* End of header Css */
-=======
-
-/* Media Query */
-
-@media only screen and (max-width: 1000px) {
-/* Css for the Header/Nav */
-nav{
-    width: 60%;
-}
-/* End of header Css */
-
 }
 
-
-@media only screen and (max-width: 800px) {
-/* Css for the Header/Nav */
-header{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: rgb(15, 192, 192);
-    flex-wrap: wrap;
-}
-
-
-nav{
-    width: 60%;
-    margin: 20px auto;
-}
-
-.Logo{
-    width: 50%;
-    height: 100%;
-    object-fit: contain;
-}
-/* End of header Css */
-
-}
-
-@media only screen and (max-width: 650px) {
-/* Css for the Header/Nav */
-
-header{
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 20px;
-    height: 15vh;
-}
-
-.Logo{
-    width: 50%;
-    height: 100%;
-    object-fit: contain;
-}
-
-nav{
-    width: 100%;
-    height: 100vh;
-    text-align: left;
-    position: absolute;
-    top: 100%;
-    left: 0%;
-    background-color: #191A1C;
-    opacity: 1;
-    padding: 0px 0%;
-    margin: 0 auto;
-    transform: scale(0, 1);
-    transform-origin: left;
-    transition: transform 400ms ease-in-out;
-    z-index: 10000000;
-}
-
-.navigation{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-}
-
-.navAnchor{
-    color: #0FC0C0;
-}
-
-
-
-.nav-toggle-label span,
-    .nav-toggle-label span::before,
-    .nav-toggle-label span::after {
-        display: block;
-        background-color: black;
-        height: 3px;
-        width: 2em;
-        border-radius: 2px;
-        position: relative;
-        cursor: pointer;
-    }
-
-    .nav-toggle-label span::before,
-    .nav-toggle-label span::after {
-        content: "";
-        position: absolute;
-    }
-
-    .nav-toggle-label span::before {
-        bottom: 8px;
-    }
-
-    .nav-toggle-label span::after {
-        top: 7px;
-    }
-
-    .nav-toggle-label{
-        cursor: pointer;
-    }
-
-
-
-    .nav-toggle:checked ~ nav {
-        transform: scale(1, 1);
-    }
-
-    .nav-toggle:checked~nav a {
-        opacity: 1;
-    }
-
-/* End of header Css */
-
-}
 
