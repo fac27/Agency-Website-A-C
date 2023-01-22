@@ -152,7 +152,10 @@ transition: all 0.3s;
 .top-left{
   position: relative;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 912953d (fixed hero section styling)
   top: 8px;
   left: 16px;
 >>>>>>> e5e4108 (edited img)
@@ -166,6 +169,7 @@ margin: auto;
 position: relative;
 =======
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 /* Media Query */
@@ -302,3 +306,16 @@ nav{
 =======
   
 >>>>>>> e5e4108 (edited img)
+=======
+  
+=======
+}
+/* added in text class for on top of the image and aligned it left */
+img{
+max-width: 100%;
+max-height: 100%;
+margin: auto;
+position: relative;
+}
+>>>>>>> dbe0ea3 (fixed hero section styling)
+>>>>>>> 912953d (fixed hero section styling)
