@@ -3,13 +3,30 @@
   text-align: left;
   color: black;
   background-size: auto;
-  height: 200px;
+  height: 300px;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  display: grid;
+  overflow: hidden;
+}
+#hero{
+  position: absolute;
+  background-image: url(images/lance-anderson-oq2WOgySksM-unsplash.jpg);
+  padding-top: 5px;
+  padding-left: 5px;
+  z-index: -1;
+  overflow-x:hidden;
 }
 /* added container but this should probably be changed - it might also be wise to put the image in the HTML rather than as a background img */
 
-.top-right{
-  position: absolute;
-  top: 8px;
-  left: 16px;
+.top-left{
+  position: relative;
 }
 /* added in text class for on top of the image and aligned it left */
+img{
+max-width: 100%;
+max-height: 100%;
+margin: auto;
+position: relative;
+}
