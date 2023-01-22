@@ -140,7 +140,7 @@ transition: all 0.3s;
   overflow: hidden;
 }
 #hero{
-  position: absolute;
+  position: relative;
   background-image: url(images/lance-anderson-oq2WOgySksM-unsplash.jpg);
   padding-top: 5px;
   padding-left: 5px;
