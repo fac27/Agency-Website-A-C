@@ -333,10 +333,13 @@ main{
     font-size: 32px;
 }
 
+    .nav-toggle:checked~nav a {
+        opacity: 1;
+    }
 
 
-/* end of service section css */
-
+/* End of header Css */
+=======
 
 /* Media Query */
 
@@ -358,6 +361,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    background-color: rgb(15, 192, 192);
     flex-wrap: wrap;
 }
 
@@ -464,16 +468,7 @@ nav{
         opacity: 1;
     }
 
-    /* added in to remove video & button when screen is small */
-    #myVideo { display: none; }
-    #hero{
-        background: url("images/pexels-free-creative-stuff-5561385.mp4") no-repeat;
-        background-size: cover;
-     }
-     #myBtn{display: none;}
-     #myBtn:hover{display: none;}
-        
-    
-}
+/* End of header Css */
 
+}
 
