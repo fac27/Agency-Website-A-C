@@ -123,7 +123,7 @@ transition: all 0.3s;
      
 /* End of header Css */
 
-
+/* hero section start */
 .container{
   position: relative;
   border: black;
@@ -131,29 +131,58 @@ transition: all 0.3s;
   border-width: 2px;
   text-align: left;
   color: black;
-  background-size: auto;
-  height: 300px;
-  border: 2px;
+  height: 400px;
   border-style: solid;
   border-color: black;
-  display: grid;
-  overflow: hidden;
+  
 }
 #hero{
   position: relative;
-  background-image: url(images/lance-anderson-oq2WOgySksM-unsplash.jpg);
-  padding-top: 5px;
-  padding-left: 5px;
   z-index: -1;
   overflow-x:hidden;
+  object-fit: cover;
+  display: grid;
 }
+
+#myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+#myBtn {
+  width: 100px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  border-radius: 2rem;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
 /* added container but this should probably be changed - it might also be wise to put the image in the HTML rather than as a background img */
 
 .top-left{
-  position: relative;
-  top: 8px;
-  left: 16px;
+  position: absolute;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 70%;
+  padding: 20px;
+  z-index: 1;
+  bottom: 0;
 }
+/* end of hero section */
+
 /* added in text class for on top of the image and aligned it left */
 img{
 max-width: 100%;
