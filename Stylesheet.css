@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+
+
   
   body {
     font-family: system-ui, sans-serif;
@@ -289,12 +291,13 @@ main{
 }
 
 .face2{
-    background-color: #191A1C;
+    background-color: #c1e8e8;
     transition: 0.5s;
+    border: solid #191A1C 1px;
 }
 
-.face2 ion-icon{
-    font-size: 120px;
+.face2 .serviceImg{
+   width: 65%;
     color: white;
     transition: 0.5s;
 }
@@ -306,14 +309,21 @@ main{
     top:2.5rem;
     left:50%;
     transform: translateX(-50%);
-    background-color: #e91e63;
+    background-color: #c1e8e8;
     border: 2px solid #191A1C;
 }
 
-.card:hover .face2 ion-icon{
+.card:hover .face2 .serviceImg{
     color: white;
     font-size: 32px;
 }
+
+ion-icon{
+    color: white;
+    font-size: 32px;
+}
+
+
 
 
 
