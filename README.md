@@ -64,8 +64,9 @@
 - [ ] stylistically - separates from the rest of the page?
 
 ### To Run Locally
-Install Github onto your desktop 2 .Click thedropdown Green Button on the top right that states "Code"
-Click the "Open with GitHub Desktop" option
-Github Desktop should open
-Click Clone
-Open the file in VS CODE
+1. Install Github onto your desktop
+2. Click thedropdown Green Button on the top right that states "Code"
+3. Click the "Open with GitHub Desktop" option
+4. Github Desktop should open
+5. Click Clone
+6. Open the file in VS CODE
