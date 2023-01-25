@@ -49,4 +49,4 @@
 4. Github Desktop should open
 5. Click Clone
 6. Open the file in VS CODE
-7.https://fac27.github.io/Agency-Website-A-C/
+7. https://fac27.github.io/Agency-Website-A-C/
