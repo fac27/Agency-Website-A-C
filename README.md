@@ -1,67 +1,46 @@
 ### Project: Agency-Website-A-C
-## About this website
- This is a website for Cosmic Designs a web development, design, and SEO agency. 
- The website has 5 main sections plus a navigation bar and a footer. The organisation of the page is to guide the user from what we do, what we offer, who we are and how to contact us. 
- 
- ### Our Approach in building the webiste
- - creating beta version knowing that we'd return to sort and organise CSS later on
- - beta version still testing accessibility as we go
- - Still testing different content (and accessibilty) to see how it fits on the page
+## About this repo
 
-### organisation of work 
+### Why
+ This is a repo for FAC cohort 27 project 1. It is a website for an agency. 
+ It documents our approach to making an agency website called Cosmic Designs.
+ This project is to help us get used to working with git, github, and workflow as well as working asynchronously. 
+ 
+### What
+ - allows other developers to review our code and site
+ - allows us to review each others work & organise our workflow
+
+### How
 - alternating sections between Cam & Abdi so work is split evenly 
 - using branch per issue per section 
 - will most likely merge asset/images folder
- 
+- creating beta version knowing that we'd return to sort and organise CSS later on
+- beta version still testing accessibility as we go
+- Still testing different content (and accessibilty) to see how it fits on the page
  
 ## user requirements and user stories
+- [ ] information about each team member 
+- [ ] users can browse on mobile, tablet, and desktop
+- [ ] users can navigate to different sections 
+- [ ] users can contact us through a form 
+- [ ] website is pubcly accessible
+- [ ] users can use keyboard shortcuts
+- [ ] users can use a screen reader
+
 #### Navigation bar
-- [ ] is able to tab through the navigation bar
-- [ ] read by screen reader
-- [ ] has to adapt to mobile (so collapsed version of the bar)
-- [ ] hover over - it's what topic/section/page you're
+- As a potential client I need a way to navigate the agencies multiple pages/sections.
 #### Hero Section
-- [ ] content: gives context
-- [ ] alt text for image
-- [ ] aligns well with the top navigations panel
-- [ ] call to action button - staight to the form/contact?
-- [ ] decent font (clear & acessible ie no cursive + colour contrast + colour)
-- [ ] responsiveness - what happens to the image on mobile?
-- [ ] defined/separated cards (single file on mobile)
+- As a potential customer, I want a pleasing to the eye (pretty) landing image with clear test, so that I can understand what it is you exactly do.
 ### services
-- [ ] hover over for price per project/per hour?
-- [ ] icons
-- [ ] should they be able to tab through each card?
-- [ ] brief summary for each service
-- [ ] unique font/large size font for price
+- As a potential customer, I want to know what this agency provides, so that I have a clear understanding of what they actually do.
 #### About us
-- [ ] images to bring it to life - hide image on mobile
-- [ ] alt text
-- [ ] avoid big blocks of text / concise information
-- [ ] consistent font with rest of text on page
-- [ ] svg background (minimalist background) - hide image on mobile
+- As a potential client I want to know about the company values, history, customers so that I know they are reliable
 #### Team Section
-- [ ] defined cards for each member
-- [ ] names/role and brief bio
-- [ ] (hover for faded photo?) click for bio ( make photo disappear for bio)
-- [ ] minimize photo on mobile - scrolling - photo then bio ?
-- [ ] make into single column
+- As a potential client I need to know who I am working with and their experience & their roles so that i know they're real people and this website isn't a scam
 #### Contact us section
-- [ ] use form fields
-- [ ] form validations
-- [ ] message to say that you've legitemately submitted a form
-- [ ] textarea no resizable - remove the feature
-- [ ] limit characters/words to 250
-- [ ] submit button
-- [ ] make the forms not ugly
-- [ ] can submit on mobile
+- As a potential client I need a way to contact the agency so i can get more information or hire them
 #### Footer 
-- [ ] logo
-- [ ] navigation links
-- [ ] simple message or call to action
-- [ ] terms, privacy, security etc placeholders
-- [ ] copyright?
-- [ ] stylistically - separates from the rest of the page?
+- As a potential client I need a way to know I'm at the end of the page so that I can stop nagivating or redirect myself to the top
 
 ### To Run Locally
 1. Install Github onto your desktop
