@@ -62,3 +62,10 @@
 - [ ] terms, privacy, security etc placeholders
 - [ ] copyright?
 - [ ] stylistically - separates from the rest of the page?
+
+### To Run Locally
+Install Github onto your desktop 2 .Click thedropdown Green Button on the top right that states "Code"
+Click the "Open with GitHub Desktop" option
+Github Desktop should open
+Click Clone
+Open the file in VS CODE
