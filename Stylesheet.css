@@ -157,34 +157,37 @@ transition: all 0.3s;
   border: black;
   border-style: solid;
   border-width: 2px;
-  text-align: left;
+  text-align: center;
   color: black;
   height: 400px;
   border-style: solid;
-  border-color: black;
-  
-  
+  border-color: black; 
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px; 
+  column-gap: 10px;
+  row-gap: 15px;
+  justify-items: center;
 }
-#hero{
+#background-nebula{
   position: relative;
   z-index: -1;
   overflow-x:hidden;
-  object-fit: cover;
-  display: grid;
+  background-image: url(Assets/bubble_gum_nebula.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
 /* added container but this should probably be changed - it might also be wise to put the image in the HTML rather than as a background img */
 
-.top-left{
+.middle-center{
   position: absolute;
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  color: #f1f1f1;
-  width: 70%;
+  grid-row: 1;
+  place-self: center;
+  color: rgb(15, 15, 58);
   padding: 20px;
   z-index: 1;
-  bottom: 0;
 }
 /* end of hero section */
 
