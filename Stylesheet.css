@@ -170,7 +170,7 @@ transition: all 0.3s;
   row-gap: 15px;
   justify-items: center;
   border-color: black;
-  
+
 
 }
 
@@ -313,13 +313,12 @@ ion-icon{
 }
 /* end of service section css */
 
-<<<<<<< HEAD
 /* About Section */
 .about{
     width: 100%;
     height: 100vh;
     margin: 0px auto;
-    padding: 10px 0px;
+    padding: 0px 0px;
     background-color: #0FC0C0;
 }
 
@@ -352,7 +351,7 @@ ion-icon{
 }
 
 /* End of About section */
-=======
+
 /* start of team section css */
 
 figure{
@@ -385,7 +384,6 @@ opacity: 0;
  background-color: white;
  color: #013d4a;
  }
->>>>>>> df42b7c65a08c7fe0a1fb6be5239a0497be66f50
 
 
 /* Media Query */
