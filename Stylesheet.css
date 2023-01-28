@@ -322,7 +322,7 @@ ion-icon{
 /* About Section */
 .about{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0px auto;
     padding: 0px 0px;
     background-color: #0FC0C0;
@@ -330,7 +330,8 @@ ion-icon{
 
 .AboutIntro{
     width: 100%;
-    height: 40%;
+    height: auto;
+    min-height: 40%;
     background-color: #191A1C;
     display: flex;
     justify-content: center;
@@ -356,6 +357,34 @@ ion-icon{
     background-color: #e91e63;
 }
 
+.AboutContainer{
+    width: 90%;
+    height: auto;
+    min-height: 70%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.AboutContainer img{
+    width: 40%;
+   
+}
+
+.aboutText{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aboutText h2,h4,p{
+    width: 80%;
+    margin: 5px auto;
+}
 /* End of About section */
 
 /* start of team section css */
@@ -401,6 +430,16 @@ nav{
 }
 /* End of header Css */
 
+/* about */
+.aboutText h2, h4, p {
+    width: 95%;
+    margin: 5px auto;
+}
+
+.AboutContainer img{
+    width: 45%;
+}
+/* end of about */
 }
 
 
@@ -427,6 +466,32 @@ nav{
     object-fit: contain;
 }
 /* End of header Css */
+
+/* about */
+.AboutIntro p{
+    width: 90%;
+    font-size: 1.2rem;
+}
+
+.AboutContainer {
+    flex-direction: column;
+}
+
+.aboutText {
+    width: 90%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.aboutText h2, h4, p {
+    width: 99%;
+    margin: 5px auto;
+}
+
+.aboutText h2,h4{
+    text-align: center;
+}
+/* end of about */
 
 }
 
@@ -517,6 +582,13 @@ nav{
     .nav-toggle:checked~nav a {
         opacity: 1;
     }
+
+    /* about */
+    .AboutContainer img {
+        width: 70%;
+        margin: 10px auto;
+    }
+    /* end of about */
 }
 
 
