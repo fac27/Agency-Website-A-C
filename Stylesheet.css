@@ -229,14 +229,14 @@ main{
 }
 
 .serviceHeader{
-    color: #e91e63;
+    color:#0b307c;;
     font-size: 1.5rem;
 }
 
 .card{
     position: relative;
     width: 18.75rem;
-    height:30rem ;
+    height:27rem ;
     background-color: whitesmoke;
     transition: 0.5s;
     margin: 10px;
@@ -258,7 +258,7 @@ main{
 }
 
 .face1{
-    padding:1.25rem;
+    padding:1rem 0rem;
     text-align: center;
     background-color: white;
     color: #013d4a;
@@ -329,8 +329,7 @@ ion-icon{
     width: 100%;
     height: auto;
     min-height: 40%;
-    background-color: #0b2f78
-
+    background-color: #0b2f78;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -380,8 +379,9 @@ ion-icon{
 }
 
 .aboutText h2, h4, p{
-    width: 80%;
+    width: 85%;
     margin: 5px auto;
+    color: white;
 }
 /* End of About section */
 
@@ -484,13 +484,14 @@ input[type=text],[type=email], select, textarea {
  /* footer */
 footer{
     width: 100%;
-    height: 18vh;
+    height: 15vh;
     background-color: #191A1C;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     color: white;
     flex-wrap: wrap;
+    background-color: #0b307c;
 }
 
 footer p{
