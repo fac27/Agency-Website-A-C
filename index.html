@@ -108,50 +108,91 @@
                 <img src="Assets\about-us.png" alt="image representing what we do as an agency">
             </div>
 
+
   
 
         </section>
     </main>
 
 
+  
+
+
+        </section>
+    </main>
+
+
+    <h2 class="center">TEAM</h2>
+
     <h2>TEAM</h2>
     <div class="servicesContainer" id="team">
         <figure>
-        <img class="tog face1" src="assets/astronaut_portrait3.png" alt="portrait of cartoon astronaut with shorthair with a pink and blue nebula in the background" style="max-width: 400px;">
-        <figcaption>CC</figcaption>
+        <img class="tog face1" src="Assets/astronaut_portrait3.png" alt="portrait of cartoon astronaut with shorthair with a pink and blue nebula in the background" style="max-width: 400px;">
+        <figcaption class="center">Cameo Choquer</figcaption>
         <p class ="toggle face">Jane Doe, a talented web and product designer with over 5 years of experience. She is skilled in creating beautiful, intuitive, and functional websites 
             and products. Jane is highly creative, driven and a skilled communicator, able to work effectively with cross-functional teams. Her portfolio showcases 
             her versatile skill set and design philosophy, featuring websites and products that are both visually striking and highly usable. Jane is the perfect 
             partner for any project, bringing a unique combination of talent, experience, and passion for design.</p>
         </figure>
             <figure>
-                <img class="tog face1" src="assets/astronaut_portrait4.png" alt="portrait of cartoon astronaut with shorthair with a pink and blue nebula in the background" style="max-width: 400px;">
-                <figcaption>A</figcaption>
+                <img class="tog face1" src="Assets/astronaut_portrait4.png" alt="portrait of cartoon astronaut with shorthair with a pink and blue nebula in the background" style="max-width: 400px;">
+                <figcaption class="center">Abdi Majid</figcaption>
                 <p class ="toggle face">Jane Doe, a talented web and product designer with over 5 years of experience. She is skilled in creating beautiful, intuitive, and functional websites 
                     and products. Jane is highly creative, driven and a skilled communicator, able to work effectively with cross-functional teams. Her portfolio showcases 
                     her versatile skill set and design philosophy, featuring websites and products that are both visually striking and highly usable. Jane is the perfect 
                     partner for any project, bringing a unique combination of talent, experience, and passion for design.</p>
             </figure>
-
     </div> 
-    <div class="container" id="form">
-        <h2>CONTACT</h2>
-        <form>
-            <label>name</label>
-            <input name="name" type="text" id="name">
-            <br>
-            <label>email</label>
-            <input name="email" type="email" id="email">
-            <br>
-            <label>Tell us why you're getting in touch</label>
-            <br>
-            <textarea name="message" type="text" id="name">
+    <h2 class="center">CONTACT US</h2>
+<div> 
     
-
+    <legend class="legend">
+        <form>
+        <div class="row">
+                <div class="col-25">
+                  <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+        </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="service">Service</label>
+                </div>
+                <div class="col-75">
+                  <select id="serviceType" name="service">
+                    <option value="SEO">SEO</option>
+                    <option value="DESIGN">DESIGN</option>
+                    <option value="PROJECT MANAGEMENT">PROJECT MANAGEMENT</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Tell us about your project</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <input type="submit" value="Submit">
+              </div>
         </form>
-    </div>
-    <footer> the footer</footer>
+    </legend>
+</div>
 
+    <footer> the footer</footer>
     <script src="script.js"></script>
 </body>
 </html>
