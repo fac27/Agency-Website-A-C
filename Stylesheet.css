@@ -176,6 +176,7 @@ transition: all 0.3s;
   background-image: url(Assets/bubble_gum_nebula.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center ;
 }
 
 
@@ -276,6 +277,10 @@ main{
 
 .face2{
     background-color: #c1e8e8;
+    background-image: url(Assets/bubble_gum_nebula.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     transition: 0.5s;
     border: solid #191A1C 1px;
 }
