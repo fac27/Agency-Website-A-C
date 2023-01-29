@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* font-family: Arial, Helvetica, sans-serif */
+    font-family: system-ui, sans-serif;
+
 }
 
 html{
@@ -13,7 +16,6 @@ html{
 
   
   body {
-    font-family: system-ui, sans-serif;
   }
   
   a {
@@ -154,26 +156,15 @@ transition: all 0.3s;
 /* hero section start */
 .container{
   position: relative;
-  border: black;
-  border-style: solid;
-  border-width: 2px;
   text-align: center;
-  color: black;
-  height: 400px;
-  border-style: solid;
-
-  border-color: black;
-  
-  
-
-
-  border-color: black; 
+  height: auto;
   display: grid;
   grid-template-columns: 100px 100px 100px;
-  grid-template-rows: 100px 100px 100px; 
+  grid-template-rows: 200px 100px 200px; 
   column-gap: 10px;
-  row-gap: 15px;
+  row-gap: 10px;
   justify-items: center;
+
   border-color: black;
 
 }
@@ -315,12 +306,76 @@ ion-icon{
     color: white;
     font-size: 32px;
 }
-
-
-
-
-
 /* end of service section css */
+
+
+/* About Section */
+.about{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0px auto;
+    padding: 0px 0px;
+    background-color: #0FC0C0;
+}
+
+.AboutIntro{
+    width: 100%;
+    height: auto;
+    min-height: 40%;
+    background-color: #191A1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.AboutIntro h2{
+    font-size: 1.7rem;
+}
+
+.AboutIntro p{
+    width: 70%;
+    font-size: 1.2rem;
+}
+
+.aboutCTA{
+    padding: 10px 35px;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: #e91e63;
+}
+
+.AboutContainer{
+    width: 90%;
+    height: auto;
+    min-height: 70%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.AboutContainer img{
+    width: 40%;
+   
+}
+
+.aboutText{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aboutText h2,h4,p{
+    width: 80%;
+    margin: 5px auto;
+}
+/* End of About section */
 
 /* start of team section css */
 
@@ -328,11 +383,11 @@ figure{
     position: relative;
     max-width: 400px;
     height:25rem ;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     transition: 0.5s;
     margin: 10px;
     box-shadow: 0 30px 50px rgba(0,0,0,0.2);
-
+    padding-bottom: 40px;
 }
 figure:hover{
     box-shadow: 0 30px 50px rgba(0,0,0,0.2);
@@ -354,7 +409,67 @@ opacity: 0;
  background-color: white;
  color: #013d4a;
  }
+/* end of team section css */
 
+/* start of contact us section css */
+.box-sizing{
+    box-sizing: border-box;
+}
+.legend{
+  padding: 20px;
+}
+
+textarea{
+    max-width: 350px ;
+    resize: vertical; 
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #e91e63;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #c1e8e8;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* end of contact us section css */
 
  /* footer */
 footer{
@@ -373,6 +488,16 @@ nav{
 }
 /* End of header Css */
 
+/* about */
+.aboutText h2, h4, p {
+    width: 95%;
+    margin: 5px auto;
+}
+
+.AboutContainer img{
+    width: 45%;
+}
+/* end of about */
 }
 
 
@@ -399,6 +524,32 @@ nav{
     object-fit: contain;
 }
 /* End of header Css */
+
+/* about */
+.AboutIntro p{
+    width: 90%;
+    font-size: 1.2rem;
+}
+
+.AboutContainer {
+    flex-direction: column;
+}
+
+.aboutText {
+    width: 90%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.aboutText h2, h4, p {
+    width: 99%;
+    margin: 5px auto;
+}
+
+.aboutText h2,h4{
+    text-align: center;
+}
+/* end of about */
 
 }
 
@@ -489,4 +640,18 @@ nav{
     .nav-toggle:checked~nav a {
         opacity: 1;
     }
+
+    /* about */
+    .AboutContainer img {
+        width: 70%;
+        margin: 10px auto;
+    }
+    /* end of about */
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+
 }
+
+

@@ -41,9 +41,10 @@
 
     
     <main>
-        <section class="services stack-md">
-            <h4 class="center serviceHeader">Our Services</h4>
-            <h2 class="center">What Exactly Do We Offer?</h2>
+        <!-- Service Section -->
+        <section id="service" class="services stack-md">
+            <h2 class="center">Our Services</h2>
+            <h3 class="center serviceHeader">What Exactly Do We Offer?</h3>
             <div class="servicesContainer">
                 <div class="card">
                     <div class="face face1">
@@ -89,51 +90,102 @@
                 </div>
             </div>
         </section>
+        <!-- Service Section -->
+        <section id="about" class="about">
+            <div class="AboutIntro stack-lg">
+
+                <h2>About Cosmic Design</h2>
+                <p>We're more than just a web development agency. We're an extension to your team. You can rely on us to improve your online presence aswell as digital channels and help drive more traffic and crucially, drive more sales and enquiries to your brand. Get yourself a Technology department, without the cost of hiring one internally!</p>
+                <button class="aboutCTA">Get In touch</button>
+            </div>
+            <div class="AboutContainer">
+                <div class="aboutText stack-lg">
+                    <h2>TO THE POINT DEVELOPMENT</h2>
+                    <h4>HONEST ADVICE & ACTION THAT GETS RESULTS</h4>
+                    <p>We're a Web Development/SEO agency with a difference. We're not the traditional agency housed in a fancy office, quoting marketing buzzwords with little meaning. We're remotely operating, meaning the chances are there is a Cosmic Design near you. Plus, no office means no office hours. We're able to support you on evenings and weekends, to help you get that competitive advantage. And let's be upfront about things. No office means we also have lower costs than other agencies, so you'll find our fees a little easier to stomach.</p>
+                    <p>That's not all. We're totally results focused. We will get more customers to your website and more sales and enquiries. In fact we're so confident, we won't ask you to sign any long-term contracts. If you're not happy, you can leave. But we're sure you'll be sticking around.</p>
+                </div>
+                <img src="Assets\about-us.png" alt="image representing what we do as an agency">
+            </div>
+
+
+  
+
+        </section>
     </main>
 
 
+    <h2 class="center">TEAM</h2>
 
-    <div class="container" id="about">
-        <h2>ABOUT US</h2>
-    </div>
     <h2>TEAM</h2>
     <div class="servicesContainer" id="team">
         <figure>
-        <img class="tog face1" src="assets/astronaut_portrait3.png" alt="portrait of cartoon astronaut with shorthair with a pink and blue nebula in the background" style="max-width: 400px;">
-        <figcaption>CC</figcaption>
+        <img class="tog face1" src="Assets/astronaut_portrait3.png" alt="portrait of cartoon astronaut with shorthair with a pink and blue nebula in the background" style="max-width: 400px;">
+        <figcaption class="center">Cameo Choquer</figcaption>
         <p class ="toggle face">Jane Doe, a talented web and product designer with over 5 years of experience. She is skilled in creating beautiful, intuitive, and functional websites 
             and products. Jane is highly creative, driven and a skilled communicator, able to work effectively with cross-functional teams. Her portfolio showcases 
             her versatile skill set and design philosophy, featuring websites and products that are both visually striking and highly usable. Jane is the perfect 
             partner for any project, bringing a unique combination of talent, experience, and passion for design.</p>
         </figure>
             <figure>
-                <img class="tog face1" src="assets/astronaut_portrait4.png" alt="portrait of cartoon astronaut with shorthair with a pink and blue nebula in the background" style="max-width: 400px;">
-                <figcaption>A</figcaption>
+                <img class="tog face1" src="Assets/astronaut_portrait4.png" alt="portrait of cartoon astronaut with shorthair with a pink and blue nebula in the background" style="max-width: 400px;">
+                <figcaption class="center">Abdi Majid</figcaption>
                 <p class ="toggle face">Jane Doe, a talented web and product designer with over 5 years of experience. She is skilled in creating beautiful, intuitive, and functional websites 
                     and products. Jane is highly creative, driven and a skilled communicator, able to work effectively with cross-functional teams. Her portfolio showcases 
                     her versatile skill set and design philosophy, featuring websites and products that are both visually striking and highly usable. Jane is the perfect 
                     partner for any project, bringing a unique combination of talent, experience, and passion for design.</p>
             </figure>
-
-    </div>
-    <div class="container" id="form">
-        <h2>CONTACT</h2>
+    </div> 
+    <h2 class="center">CONTACT US</h2>
+<div> 
+    
+    <legend class="legend">
         <form>
-            <label>name</label>
-            <input name="name" type="text" id="name">
-            <br>
-            <label>email</label>
-            <input name="email" type="email" id="email">
-            <br>
-            <label>Tell us why you're getting in touch</label>
-            <br>
-            <textarea name="message" type="text" id="name"></textarea>
+        <div class="row">
+                <div class="col-25">
+                  <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+        </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="service">Service</label>
+                </div>
+                <div class="col-75">
+                  <select id="serviceType" name="service">
+                    <option value="SEO">SEO</option>
+                    <option value="DESIGN">DESIGN</option>
+                    <option value="PROJECT MANAGEMENT">PROJECT MANAGEMENT</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Tell us about your project</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <input type="submit" value="Submit">
+              </div>
         </form>
-    </div>
+    </legend>
+</div>
 
-    <footer></footer>
+    <footer> the footer</footer>
     <script src="script.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
