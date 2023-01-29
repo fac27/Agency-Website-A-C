@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* font-family: Arial, Helvetica, sans-serif */
+    font-family: system-ui, sans-serif;
+
 }
 
 html{
@@ -13,7 +16,6 @@ html{
 
   
   body {
-    font-family: system-ui, sans-serif;
   }
   
   a {
@@ -154,11 +156,7 @@ transition: all 0.3s;
 /* hero section start */
 .container{
   position: relative;
-  border: black;
-  border-style: solid;
-  border-width: 2px;
   text-align: center;
-  color: black;
   height: auto;
   display: grid;
   grid-template-columns: 100px 100px 100px;
@@ -416,7 +414,7 @@ opacity: 0;
 }
 .legend{
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: whitesmoke;
   padding: 20px;
 }
 
@@ -438,8 +436,8 @@ input[type=text], select, textarea {
   }
   
   input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
+    background-color: #e91e63;
+    color: black;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -448,7 +446,7 @@ input[type=text], select, textarea {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #c1e8e8;
   }
   
   .col-25 {
