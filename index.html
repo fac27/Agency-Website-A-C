@@ -132,26 +132,57 @@
                     her versatile skill set and design philosophy, featuring websites and products that are both visually striking and highly usable. Jane is the perfect 
                     partner for any project, bringing a unique combination of talent, experience, and passion for design.</p>
             </figure>
-
     </div> 
-    <div class="container" id="form">
-        <h2>CONTACT</h2>
-        <form>
-            <label>name</label>
-            <input name="name" type="text" id="name">
-            <br>
-            <label>email</label>
-            <input name="email" type="email" id="email">
-            <br>
-            <label>Tell us why you're getting in touch</label>
-            <br>
-            <textarea name="message" type="text" id="name">
+    <h2>CONTACT US</h2>
+<div> 
     
-
+    <div class="legend">
+        <form>
+        <div class="row">
+                <div class="col-25">
+                  <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+        </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="service">Service</label>
+                </div>
+                <div class="col-75">
+                  <select id="serviceType" name="service">
+                    <option value="SEO">SEO</option>
+                    <option value="DESIGN">DESIGN</option>
+                    <option value="PROJECT MANAGEMENT">PROJECT MANAGEMENT</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Tell us about your project</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <input type="submit" value="Submit">
+              </div>
         </form>
     </div>
-    <footer> the footer</footer>
+</div>
 
+    <footer> the footer</footer>
     <script src="script.js"></script>
 </body>
 </html>
