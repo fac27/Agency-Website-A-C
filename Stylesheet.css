@@ -284,7 +284,7 @@ main{
     background-position: center center;
     background-repeat: no-repeat;
     transition: 0.5s;
-    border: solid #191A1C 1px;
+    /* border: solid #191A1C 1px; */
 }
 
 .face2 .serviceImg{
@@ -424,13 +424,15 @@ opacity: 0;
 }
 .legend{
   padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 textarea{
     max-width: 350px ;
     resize: vertical; 
 }
-input[type=text], select, textarea {
+input[type=text],[type=email], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
