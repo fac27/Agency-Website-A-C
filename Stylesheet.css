@@ -160,9 +160,9 @@ transition: all 0.3s;
   height: auto;
   display: grid;
   grid-template-columns: 100px 100px 100px;
-  grid-template-rows: 100px 100px 100px; 
+  grid-template-rows: 200px 100px 200px; 
   column-gap: 10px;
-  row-gap: 15px;
+  row-gap: 10px;
   justify-items: center;
 }
 
@@ -380,11 +380,11 @@ figure{
     position: relative;
     max-width: 400px;
     height:25rem ;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     transition: 0.5s;
     margin: 10px;
     box-shadow: 0 30px 50px rgba(0,0,0,0.2);
-
+    padding-bottom: 40px;
 }
 figure:hover{
     box-shadow: 0 30px 50px rgba(0,0,0,0.2);
@@ -413,8 +413,6 @@ opacity: 0;
     box-sizing: border-box;
 }
 .legend{
-  border-radius: 5px;
-  background-color: whitesmoke;
   padding: 20px;
 }
 
