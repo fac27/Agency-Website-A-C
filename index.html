@@ -1,3 +1,5 @@
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -35,6 +37,7 @@
     <div class="container" id="background-nebula">
         <!-- container class should be renamed -->
         <h1 class="middle-center">Design that's out of this world</h1>
+        <p></p>
         
            <!-- removed video -->
     </div>
@@ -114,10 +117,7 @@
         </section>
     </main>
 
-
     <h2 class="center">TEAM</h2>
-
-    <h2>TEAM</h2>
     <div class="servicesContainer" id="team">
         <figure>
         <img class="tog face1" src="Assets/astronaut_portrait3.png" alt="portrait of cartoon astronaut with shorthair with a pink and blue nebula in the background" style="max-width: 400px;">
@@ -138,7 +138,6 @@
     </div> 
     <h2 class="center">CONTACT US</h2>
 <div> 
-    
     <legend class="legend">
         <form>
         <div class="row">
@@ -146,7 +145,7 @@
                   <label for="fname">First Name</label>
                 </div>
                 <div class="col-75">
-                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
                 </div>
         </div>
               <div class="row">
@@ -154,27 +153,25 @@
                   <label for="lname">Last Name</label>
                 </div>
                 <div class="col-75">
-                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
                 </div>
               </div>
               <div class="row">
                 <div class="col-25">
-                  <label for="service">Service</label>
+                  <label for="email">Email</label>
                 </div>
                 <div class="col-75">
-                  <select id="serviceType" name="service">
-                    <option value="SEO">SEO</option>
-                    <option value="DESIGN">DESIGN</option>
-                    <option value="PROJECT MANAGEMENT">PROJECT MANAGEMENT</option>
-                  </select>
+                    <div class="col-75">
+                        <input type="email" id="email" name="email" placeholder="name@workplace.com" required>
+                      </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-25">
-                  <label for="subject">Tell us about your project</label>
+                  <label for="message">Tell us about your project</label>
                 </div>
                 <div class="col-75">
-                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  <textarea maxlength="250" id="message" name="message" placeholder="Write something.." style="max-height:200px" required></textarea>
                 </div>
               </div>
               <br>
@@ -197,5 +194,7 @@
         </ul>
     </footer>
     <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
