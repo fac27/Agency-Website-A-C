@@ -476,6 +476,14 @@ input[type=text], select, textarea {
 
 /* end of contact us section css */
 
+ /* footer */
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: #191A1C;
+}
+ /* end of footer */
+
 /* Media Query */
 
 @media only screen and (max-width: 1000px) {
