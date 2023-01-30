@@ -27,16 +27,26 @@ html{
     list-style: none;
     padding: 0;
   }
-  
-  img {
-    display: block;
+
+  img{
     max-width: 100%;
-    height: auto;
-  }
+    max-height: 100%;
+    margin: auto;
+    position: relative;
+    }
+
+section{
+     width: 100%;
+     height: auto;
+    margin: 0px auto;
+    padding: 0px 0px;
+    }
 
   .center{
     text-align: center;
     margin: 0px auto;
+    color:#0b307c;
+    font-size: 1.5rem;
 }
 
 .stack-sm > * + * {
@@ -55,11 +65,13 @@ html{
     margin-top: 4rem;
   }
 
+
   .flexContainer{
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
 
 /* Css for the Header/Nav */
 
@@ -73,8 +85,6 @@ header{
     flex-wrap: wrap;
     position: relative;
 }
-
-
 
 .Logo{
     width: 30%;
@@ -155,28 +165,39 @@ transition: all 0.3s;
     .nav-toggle{
         display: none;
     }
-
-    
-
-     
 /* End of header Css */
-
-/* hero section start */
-.container{
-  position: relative;
-  text-align: center;
-  height: auto;
-  display: grid;
-  grid-template-columns: 100px 100px 100px;
-  grid-template-rows: 200px 100px 200px; 
-  column-gap: 10px;
-  row-gap: 10px;
-  justify-items: center;
-
-  border-color: black;
-
+    
+/* block containers */
+.grid-container{
+    position: relative;
+    text-align: center;
+    height: auto;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 200px 100px 200px; 
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-items: center;
+    border-color: black;
+  }
+  .flex-Container{
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
+  main{
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px 0px;
+}
+
+
+/* hero section start */
 #background-nebula{
   position: relative;
   z-index: -1;
@@ -187,10 +208,6 @@ transition: all 0.3s;
   background-position: center;
   height: 90vh;
 }
-
-
-/* added container but this should probably be changed - it might also be wise to put the image in the HTML rather than as a background img */
-
 .middle-center{
   position: absolute;
   grid-row: 1;
@@ -203,44 +220,16 @@ transition: all 0.3s;
 
 /* end of hero section */
 
-/* added in text class for on top of the image and aligned it left */
-img{
-max-width: 100%;
-max-height: 100%;
-margin: auto;
-position: relative;
-}
-
-/* css for main */
-main{
-    width: 100%;
-    min-height: 100vh;
-    padding: 20px 0px;
-}
-/* end of main css */
 
 /* css for service section */
-.services{
-    width: 95%;
-    height: auto;
-    margin: 0px auto;
-    padding: 10px 0px;
-}
 
-.servicesContainer{
-    width: 100%;
-    height: auto;
-    min-height: 500px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-}
+
 
 .serviceHeader{
     color:#0b307c;
     font-size: 1.5rem;
 }
+
 
 .card{
     position: relative;
@@ -281,7 +270,7 @@ main{
     margin: 5rem 0 1rem 0;
 }
 
-.face1 h4{
+.face1 h3{
     display: inline-block;
     margin-top: 1.25rem;
     padding: 0.3125rem 0.625rem;
@@ -293,7 +282,6 @@ main{
 .face2{
     background-color: #7cc4fd;
     border-radius: 10%;
-    /* background-image: url(Assets/bubble_gum_nebula.png); */
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -322,10 +310,6 @@ main{
     font-size: 32px;
 }
 
-ion-icon{
-    color: white;
-    font-size: 32px;
-}
 /* end of service section css */
 
 
@@ -339,11 +323,14 @@ ion-icon{
 
 .about{
     width: 100%;
-    min-height: 100vh;
-    margin: 0px auto;
-    padding: 0px 0px;
+    height: 100vh;
+    background-color: red;
+}
+
+.about{
     background-color: #0b2f78;
 }
+
 
 .AboutIntro{
     width: 100%;
@@ -374,20 +361,6 @@ ion-icon{
     background-color: #e91e63;
 }
 
-.AboutContainer{
-    width: 90%;
-    height: auto;
-    min-height: 70%;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.AboutContainer img{
-    width: 40%;
-   
-}
-
 .aboutText{
     width: 50%;
     height: 100%;
@@ -397,6 +370,7 @@ ion-icon{
     align-items: center;
     flex-direction: column;
 }
+
 
 .aboutText h2, h4, p{
     width: 85%;
@@ -411,7 +385,6 @@ figure{
     position: relative;
     max-width: 400px;
     height:25rem ;
-    /* background-color: whitesmoke; */
     transition: 0.5s;
     margin: 10px;
     box-shadow: 0 30px 50px rgba(0,0,0,0.2);
@@ -542,14 +515,12 @@ nav{
 /* End of header Css */
 
 /* about */
-.aboutText h2, h4, p {
+.aboutText h2, h3, p {
     width: 95%;
     margin: 5px auto;
 }
 
-.AboutContainer img{
-    width: 45%;
-}
+
 /* end of about */
 }
 
@@ -594,12 +565,12 @@ nav{
  margin-right: auto;
 }
 
-.aboutText h2, h4, p {
+.aboutText h2, h3, p {
     width: 99%;
     margin: 5px auto;
 }
 
-.aboutText h2,h4{
+.aboutText h2,h3{
     text-align: center;
 }
 /* end of about */
@@ -723,4 +694,32 @@ nav{
 
 }
 
+/* CSS graveyard */
 
+/* .AboutContainer{
+    width: 100%;
+    height: auto;
+    min-height: 70%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+/* .services{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px 0px;
+} */
+
+/* .about{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0px auto;
+    padding: 10px 0px;
+    background-color: #0b2f78;
+} */
+/* .serviceHeader{
+    color:#0b307c;
+    font-size: 1.5rem;
+} */
