@@ -15,6 +15,7 @@ html{
 
   
   body {
+
   }
   
   a {
@@ -52,6 +53,12 @@ html{
   
   .stack-xl > * + * {
     margin-top: 4rem;
+  }
+
+  .flexContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 /* Css for the Header/Nav */
@@ -192,6 +199,8 @@ transition: all 0.3s;
   padding: 20px;
   z-index: 1;
 }
+
+
 /* end of hero section */
 
 /* added in text class for on top of the image and aligned it left */
@@ -229,7 +238,7 @@ main{
 }
 
 .serviceHeader{
-    color:#0b307c;;
+    color:#0b307c;
     font-size: 1.5rem;
 }
 
@@ -264,6 +273,10 @@ main{
     color: #013d4a;
 }
 
+.face1 p{
+   color: #0b307c;
+}
+
 .face1 h2{
     margin: 5rem 0 1rem 0;
 }
@@ -272,9 +285,9 @@ main{
     display: inline-block;
     margin-top: 1.25rem;
     padding: 0.3125rem 0.625rem;
-    border: 2px solid #e91e63;
+    border: 2px solid #0b307c;
     font-size: 2rem;
-    color: #e91e63;
+    color: #019bfc;
 }
 
 .face2{
@@ -317,6 +330,13 @@ ion-icon{
 
 
 /* About Section */
+
+#aboutsection{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+
 .about{
     width: 100%;
     min-height: 100vh;
