@@ -15,6 +15,7 @@ html{
 
   
   body {
+
   }
   
   a {
@@ -52,6 +53,12 @@ html{
   
   .stack-xl > * + * {
     margin-top: 4rem;
+  }
+
+  .flexContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 /* Css for the Header/Nav */
@@ -192,6 +199,8 @@ transition: all 0.3s;
   padding: 20px;
   z-index: 1;
 }
+
+
 /* end of hero section */
 
 /* added in text class for on top of the image and aligned it left */
@@ -229,14 +238,14 @@ main{
 }
 
 .serviceHeader{
-    color: #e91e63;
+    color:#0b307c;
     font-size: 1.5rem;
 }
 
 .card{
     position: relative;
     width: 18.75rem;
-    height:30rem ;
+    height:27rem ;
     background-color: whitesmoke;
     transition: 0.5s;
     margin: 10px;
@@ -258,10 +267,14 @@ main{
 }
 
 .face1{
-    padding:1.25rem;
+    padding:1rem 0rem;
     text-align: center;
     background-color: white;
     color: #013d4a;
+}
+
+.face1 p{
+   color: #0b307c;
 }
 
 .face1 h2{
@@ -272,9 +285,9 @@ main{
     display: inline-block;
     margin-top: 1.25rem;
     padding: 0.3125rem 0.625rem;
-    border: 2px solid #e91e63;
+    border: 2px solid #0b307c;
     font-size: 2rem;
-    color: #e91e63;
+    color: #019bfc;
 }
 
 .face2{
@@ -317,6 +330,13 @@ ion-icon{
 
 
 /* About Section */
+
+#aboutsection{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+
 .about{
     width: 100%;
     min-height: 100vh;
@@ -329,8 +349,7 @@ ion-icon{
     width: 100%;
     height: auto;
     min-height: 40%;
-    background-color: #0b2f78
-
+    background-color: #0b2f78;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -380,8 +399,9 @@ ion-icon{
 }
 
 .aboutText h2, h4, p{
-    width: 80%;
+    width: 85%;
     margin: 5px auto;
+    color: white;
 }
 /* End of About section */
 
@@ -484,13 +504,14 @@ input[type=text],[type=email], select, textarea {
  /* footer */
 footer{
     width: 100%;
-    height: 18vh;
+    height: 15vh;
     background-color: #191A1C;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     color: white;
     flex-wrap: wrap;
+    background-color: #0b307c;
 }
 
 footer p{
