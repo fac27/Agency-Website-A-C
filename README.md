@@ -20,10 +20,10 @@
  
 ## user requirements and user stories
 - [ ] information about each team member 
-- [ ] users can browse on mobile, tablet, and desktop
-- [ ] users can navigate to different sections 
+- [x] users can browse on mobile, tablet, and desktop
+- [x] users can navigate to different sections 
 - [ ] users can contact us through a form 
-- [ ] website is pubcly accessible
+- [x] website is pubcly accessible
 - [ ] users can use keyboard shortcuts
 - [ ] users can use a screen reader
 
