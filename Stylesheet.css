@@ -37,7 +37,7 @@ html{
 
 section{
      width: 100%;
-     height: auto;
+     min-height: 90vh;
     margin: 0px auto;
     padding: 0px 0px;
     }
@@ -83,7 +83,10 @@ header{
     align-items: center;
     background-color: #0b307c;
     flex-wrap: wrap;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 
 .Logo{
@@ -183,7 +186,6 @@ transition: all 0.3s;
   .flex-Container{
     width: 100%;
     height: auto;
-    min-height: 500px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -314,16 +316,9 @@ transition: all 0.3s;
 
 
 /* About Section */
-
-#aboutsection{
-    width: 100%;
-    height: 100vh;
-    background-color: red;
-}
-
 .about{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-color: red;
 }
 
@@ -359,6 +354,7 @@ transition: all 0.3s;
     font-size: 1rem;
     border-radius: 10px;
     background-color: #e91e63;
+    cursor: pointer;
 }
 
 .aboutText{
@@ -372,7 +368,7 @@ transition: all 0.3s;
 }
 
 
-.aboutText h2, h4, p{
+.aboutText h2, h3, p{
     width: 85%;
     margin: 5px auto;
     color: white;
@@ -503,6 +499,8 @@ footer p{
     flex-direction: row;
 }
 
+
+
  /* end of footer */
 
 /* Media Query */
@@ -555,10 +553,6 @@ nav{
     font-size: 1.2rem;
 }
 
-.AboutContainer {
-    flex-direction: column;
-}
-
 .aboutText {
     width: 90%;
  margin-left: auto;
@@ -585,6 +579,8 @@ header{
     align-items: center;
     padding: 0px 20px;
     height: 15vh;
+    position: relative;
+    
 }
 
 .Logo{
@@ -618,11 +614,6 @@ nav{
     align-items: center;
     flex-direction: column;
 }
-
-.navAnchor{
-    color: #019bfc;
-}
-
 
 
 .nav-toggle-label span,
@@ -666,10 +657,6 @@ nav{
     }
 
     /* about */
-    .AboutContainer img {
-        width: 70%;
-        margin: 10px auto;
-    }
     
     /* end of about */
     .col-25, .col-75, input[type=submit] {
@@ -682,8 +669,7 @@ nav{
       }
 
       .footerNav{
-        width: 1px;
-        min-width: 300px;
+        width: 100%;
         height: auto;
         flex-direction: row;
     }
@@ -691,6 +677,8 @@ nav{
     .footerimg {
         width: 30%;
     }
+
+ 
 
 }
 
