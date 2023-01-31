@@ -14,7 +14,7 @@ submission.addEventListener('submit', (e) => {
 
     formValues.push({
         submissionDate: date,
-        name: firstName,
+        firstName: firstName,
         lastName: lastName,
         email: email,
         message: message
