@@ -9,18 +9,18 @@
     <title>Web Agency</title>
 </head>
 
-<body>
+<body id="home">
     <!-- This Is the section for header/nav elements -->
-<header class="">
+<header id="" class="">
     <img class="Logo" src="Assets\Logo.png" alt="Logo">
     <input type="checkbox" id="nav-toggle" class="nav-toggle">
     <nav>
         <ul class="navigation">
-            <li><a class="navAnchor" href="#hero">Home</a></li>
+            <li><a class="navAnchor" href="#home">Home</a></li>
             <li><a class="navAnchor" href="#service">Services</a></li>
             <li><a class="navAnchor" href="#about">About</a></li>
             <li><a class="navAnchor" href="#team">Team</a></li>
-            <li><a class="navAnchor" href="#form">Contact</a></li>
+            <li><a class="navAnchor" href="#contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -40,7 +40,7 @@
     </div>
 
     
-    <main>
+    <main class="stack-lg">
         <section id="service" class="stack-md">
             <h2 class="center">Our Services</h2>
             <h3 class="center serviceHeader">What Exactly Do We Offer?</h3>
@@ -94,7 +94,7 @@
             <div class="AboutIntro stack-lg">
                 <h2>About Cosmic Design</h2>
                 <p>We're more than just a web development agency. We're an extension to your team. You can rely on us to improve your online presence aswell as digital channels and help drive more traffic and crucially, drive more sales and enquiries to your brand. Get yourself a Technology department, without the cost of hiring one internally!</p>
-                <button class="aboutCTA">Get In touch</button>
+                <a href="#contact"><button class="aboutCTA">Get In touch</button></a>
             </div>
             <div class="flex-Container">
                 <div class="aboutText stack-lg">
@@ -106,10 +106,7 @@
                 <img src="Assets\about-us.png" style="max-width: 40%;" alt="image representing what we do as an agency">
             </div>
         </section>
-
-    </main>
-
-    <h2 class="center">TEAM</h2>
+        <h2 class="center">TEAM</h2>
     <div class="flex-Container" id="team">
         <figure>
         <img class="tog face1" src="Assets/astronaut_portrait3.png" alt="portrait of cartoon astronaut with shorthair with a pink and blue nebula in the background" style="max-width: 400px;">
@@ -128,10 +125,32 @@
                     partner for any project, bringing a unique combination of talent, experience, and passion for design.</p>
             </figure>
     </div> 
+
+    </main>
+
+    <!-- <h2 class="center">TEAM</h2>
+    <div class="flex-Container" id="team">
+        <figure>
+        <img class="tog face1" src="Assets/astronaut_portrait3.png" alt="portrait of cartoon astronaut with shorthair with a pink and blue nebula in the background" style="max-width: 400px;">
+        <figcaption class="center">Cameo Choquer</figcaption>
+        <p class ="toggle face">Jane Doe, a talented web and product designer with over 5 years of experience. She is skilled in creating beautiful, intuitive, and functional websites 
+            and products. Her portfolio showcases 
+            her versatile skill set and design philosophy, featuring websites and products that are both visually striking and highly usable. Jane is the perfect 
+            partner for any project, bringing a unique combination of talent, experience, and passion for design.</p>
+        </figure>
+            <figure>
+                <img class="tog face1" src="Assets/astronaut_portrait4.png" alt="portrait of cartoon astronaut with shorthair with a pink and blue nebula in the background" style="max-width: 400px;">
+                <figcaption class="center">Abdi Majid</figcaption>
+                <p class ="toggle face">Jane Doe, a talented web and product designer with over 5 years of experience. She is skilled in creating beautiful, intuitive, and functional websites 
+                    and products. Her portfolio showcases 
+                    her versatile skill set and design philosophy, featuring websites and products that are both visually striking and highly usable. Jane is the perfect 
+                    partner for any project, bringing a unique combination of talent, experience, and passion for design.</p>
+            </figure>
+    </div>  -->
     <h2 class="center">CONTACT US</h2>
 <div> 
     <legend class="legend">
-        <form>
+        <form id="contact">
         <div class="row">
                 <div class="col-25">
                   <label for="fname">First Name</label>
@@ -178,11 +197,11 @@
         <img class="footerimg" src="Assets\Logo.png" alt="Logo">
         <p>© 2023 Cosmic Desgin, Inc.</p>
         <ul class="navigation footerNav">
-            <li><a class="" href="#hero">Home</a></li>
+            <li><a class="" href="#home">Home</a></li>
             <li><a class="" href="#service">Services</a></li>
             <li><a class="" href="#about">About</a></li>
             <li><a class="" href="#team">Team</a></li>
-            <li><a class="" href="#form">Contact</a></li>
+            <li><a class="" href="#contact">Contact</a></li>
         </ul>
     </footer>
     <script src="script.js"></script>
