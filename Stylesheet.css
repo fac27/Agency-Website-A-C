@@ -238,6 +238,7 @@ nav {
     background-color: whitesmoke;
     transition: 0.5s;
     margin: 10px;
+    border-radius: 10%;
 }
 
 .card:hover{
@@ -260,6 +261,7 @@ nav {
     text-align: center;
     background-color: white;
     color: #013d4a;
+    border-radius: 10%;
 }
 
 .face1 p{
@@ -288,6 +290,7 @@ nav {
     transition: 0.5s;
 }
 
+
 .face2 .serviceImg{
    width: 65%;
     color: white;
@@ -308,6 +311,22 @@ nav {
 .card:hover .face2 .serviceImg{
     color: white;
     font-size: 32px;
+}
+
+.face2:focus{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    top:2.5rem;
+    left:50%;
+    transform: translateX(-50%);
+    background-color: #c1e8e8;
+    border: 2px solid #191A1C;
+  }
+
+
+.cardFocus{
+    border: solid black 2px;
 }
 
 /* end of service section css */
@@ -497,6 +516,8 @@ footer p{
     align-items: center;
     flex-direction: row;
 }
+
+
  /* end of footer */
 
 

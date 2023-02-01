@@ -1,3 +1,12 @@
+
+const cardTab = document.getElementsByClassName("card");
+const face2Tab = document.getElementsByClassName("face2");
+
+for (var i = 0; i < face2Tab.length; i++) {
+    face2Tab[i].onfocus = cardTab[i].classList.add("cardFocus");
+};
+
+
 const submission = document.forms['contact'];
 if (!localStorage.formValues) localStorage.formValues = "[]";
 var formValues = JSON.parse(localStorage.formValues);
@@ -23,4 +32,5 @@ submission.addEventListener('submit', (e) => {
     localStorage.formValues = JSON.stringify(formValues); 
     document.forms[0].reset(); 
 })
+
 
