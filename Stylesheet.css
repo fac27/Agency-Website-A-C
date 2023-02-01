@@ -207,7 +207,7 @@ nav {
   position: absolute;
   grid-row: 1;
   place-self: center;
-  color: rgb(15, 15, 58);
+  color: rgb(9, 9, 49);
   padding: 20px;
   z-index: 1;
   }
@@ -216,7 +216,7 @@ nav {
     grid-row: 3;
     place-self: center;
     align-self: start;
-    color: rgb(15, 15, 58);
+    color: white;
     padding: 10px;
     z-index: 1;
     }
