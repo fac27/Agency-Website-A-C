@@ -29,9 +29,10 @@ html {
     position: relative;
     }
 
-section {
-    width: 100%;
-    min-height: 90vh;
+
+section{
+     width: 100%;
+     min-height: 90vh;
     margin: 0px auto;
     padding: 0px 0px;
     }
@@ -673,4 +674,5 @@ nav{
     .footerimg {
         width: 30%;
     }
+
 }
