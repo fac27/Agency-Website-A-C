@@ -240,6 +240,7 @@ transition: all 0.3s;
     background-color: whitesmoke;
     transition: 0.5s;
     margin: 10px;
+    border-radius: 10%;
 }
 
 .card:hover{
@@ -262,6 +263,7 @@ transition: all 0.3s;
     text-align: center;
     background-color: white;
     color: #013d4a;
+    border-radius: 10%;
 }
 
 .face1 p{
@@ -290,6 +292,7 @@ transition: all 0.3s;
     transition: 0.5s;
 }
 
+
 .face2 .serviceImg{
    width: 65%;
     color: white;
@@ -310,6 +313,22 @@ transition: all 0.3s;
 .card:hover .face2 .serviceImg{
     color: white;
     font-size: 32px;
+}
+
+.face2:focus{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    top:2.5rem;
+    left:50%;
+    transform: translateX(-50%);
+    background-color: #c1e8e8;
+    border: 2px solid #191A1C;
+  }
+
+
+.cardFocus{
+    border: solid black 2px;
 }
 
 /* end of service section css */
@@ -499,6 +518,24 @@ footer p{
     flex-direction: row;
 }
 
+/* .provider:hover{
+    cursor: pointer;
+  } */
+  
+  .face2:focus{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    top:2.5rem;
+    left:50%;
+    transform: translateX(-50%);
+    background-color: #c1e8e8;
+    border: 2px solid #191A1C;
+  }
+
+.cardFocus{
+    box-shadow: 0 30px 50px rgba(0,0,0,0.2);
+}
 
 
  /* end of footer */
